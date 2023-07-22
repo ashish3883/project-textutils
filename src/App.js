@@ -21,9 +21,9 @@ function App() {
     <>
     <Navbar title='TextUtil' aboutText='About Us' Home='Our Home' mode={mode} toggleMode={toggleMode}/>
     <div className="container my-3">
-    {/* <Textarea title='Enter Text Here' mode={mode}/> */}
+    <Textarea title='Enter Text Here' mode={mode}/>
     {/* <About/> */}
-    <ToDos mode={mode}/>
+    {/* <ToDos mode={mode}/> */}
     </div>
     </>
   );
